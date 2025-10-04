@@ -11,11 +11,6 @@
     { "src": "/css/(.*)", "dest": "/public/css/$1" },
     { "src": "/js/(.*)", "dest": "/public/js/$1" },
     { "src": "/images/(.*)", "dest": "/public/images/$1" },
-
- 
-    { "src": "/landing", "dest": "api/landing.php" },
-
-
     { "src": "/(.*)", "dest": "api/index.php" }
   ]
 }
